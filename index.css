@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the container */
+.container {
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Input fields and select dropdown */
+input, select {
+    width: calc(100% - 20px); /* Ensures consistent width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded input fields */
+    font-size: 16px;
+    background-color: #f5f1ee; /* Light background for inputs */
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    width: 50% ; 
+    padding: 12px;
+    background-color: #fcc0c5;
+    color: #000;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #f89aa0;
+}
+
+/* Result or error display styling */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+}
